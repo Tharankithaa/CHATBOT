@@ -1,0 +1,119 @@
+.welcome-to-jarvis {
+  width: 319px;
+  display: inline-block;
+}
+.log-in-with,
+.welcome-to-jarvis {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.log-in-with-your-openai-accoun-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs);
+  text-align: left;
+}
+.log-in {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 27px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: center;
+}
+.login1 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-10xs) 0 4px;
+  background-color: transparent;
+  width: 66px;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(180deg, #00897b, #00231f);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.login1:hover {
+  background-color: rgba(51, 51, 51, 0.09);
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.sign-up2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 27px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: center;
+}
+.sign-up1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) 0 6px;
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(180deg, #00897b, #00231f);
+  overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.login-parent,
+.sign-up1,
+.welcome-screen-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.login-parent {
+  width: 153px;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.welcome-screen-inner {
+  width: 320px;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.chatgpt-logo-icon1 {
+  width: 39px;
+  height: 39.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 295px;
+  left: 696px;
+}
+.welcome-screen {
+  width: 100%;
+  height: 752px;
+  position: relative;
+  background-color: var(--cool-blue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 354px var(--padding-xl) 287px;
+  gap: var(--gap-8xs);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
